@@ -97,6 +97,7 @@ class Adafruit_Fingerprint {
   uint8_t createModel(void);
   uint8_t emptyDatabase(void);
   uint8_t storeModel(uint16_t id);
+  uint8_t deleteModel(uint16_t id);
   uint8_t fingerFastSearch(void);
   uint8_t getTemplateCount(void);
   void writePacket(uint32_t addr, uint8_t packettype, uint16_t len, uint8_t *packet);
